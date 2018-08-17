@@ -1,0 +1,51 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 504
+  ClientWidth = 386
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 2
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    TextSettings.WordWrap = True
+    Align = Client
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 80.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 30.000000000000000000
+    Size.Width = 366.000000000000000000
+    Size.Height = 394.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 358.000000000000000000
+    Viewport.Height = 386.000000000000000000
+  end
+  object ResendRequestBut: TButton
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 70.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Position.X = 5.000000000000000000
+    Position.Y = 45.000000000000000000
+    Size.Width = 156.000000000000000000
+    Size.Height = 35.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Request Again'
+    OnClick = ResendRequestButClick
+  end
+  object TestInternet: TButton
+    Position.X = 214.000000000000000000
+    Position.Y = 46.000000000000000000
+    Size.Width = 163.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Test Internet'
+    OnClick = TestInternetClick
+  end
+end
