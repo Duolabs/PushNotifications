@@ -1,5 +1,5 @@
 # PushNotifications
-Push Notification using Embarcadero Rad Studio Tokyo 10.2.3 on Android and Apple Deviced written in C++ and Delphi.
+Push Notification using Embarcadero Rad Studio Tokyo 10.2.3 on Android and Apple Devices written in C++ and Delphi.
 
 
 # Premise:
